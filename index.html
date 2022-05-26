@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+    <ul>
+        <a href="home.asp"><img class="home_img" src="/public/ico-home.png"/></a>
+        <li><a class="register" href="default.asp">Register</a></li>
+        <li><a href="news.asp">Log In</a></li>
+    </ul>
+    <a class="header">Improve Shop Experience</a>
+    <img class="curve" src="/public/Rectangle 3.png">
+    <form class="form">
+        <div class="form-content">
+            <label class="header-label" id="email-label" for="email">Email</label>
+            <input 
+                type="email"
+                id="email"
+                class="text-input"
+                required
+            />
+        </div>
+        <div class="form-content">
+            <label class="header-label" id="name-label" for="name">Nickname</label>
+            <input 
+                type="text"
+                id="name"
+                class="text-input"
+                required
+            /> 
+        </div>
+        <div class="form-content">
+            <label class="header-label" id="phone-label" for="phone">Phone Number</label>
+            <input 
+                type="text"
+                id="phone"
+                class="text-input"
+                required
+            /> 
+        </div>
+        <div class="form-content">
+            <p class="text">Purpose</p>
+            <select id="dropdown" name="position" class="text-input" required>
+                <option disabled selected value>Choose your position</option>
+                <option>Buyer</option>
+                <option>Salesman</option>
+                <option>Distributor</option>
+            </select>
+        </div>
+        <div>
+            <label class="checkbox">
+                <input
+                    type="checkbox"
+                    class="input-checkbox"
+                    value="proposals"
+                />
+                Would you like to get proposals to your email?
+            </label>
+        </div>
+        <a class="get-started">GET STARTED</a>
+    </form>
+</body>
+</html>
+
